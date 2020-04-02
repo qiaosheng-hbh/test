@@ -143,9 +143,9 @@
 
                     <el-dropdown-item command={item.text}>{item.value}</el-dropdown-item>
               ))}
-              <//el-dropdown>:<span>
-                <button type="text" on-click={this.ok.bind(this,data)}>确认</button>el-dropdown-menu>
-                <
+              </el-dropdown-menu>
+              </el-dropdown>:<span>
+                <button type="text" on-click={this.ok.bind(this,data)}>确认</button>
                 <button type="text" on-click={this.canncel}>取消</button>
               </span>}
 
